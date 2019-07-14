@@ -5,7 +5,7 @@ const fs = require('fs')
 const minify = require('babel-minify')
 const path = require('path')
 
-const src = fs.readFileSync(path.resolve(process.cwd(), './src/index.js'))
+const src = fs.readFileSync(path.resolve(__dirname, '../src/index.js'))
 const {code} = minify(`
     (() => {
         'use strict'
