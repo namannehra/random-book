@@ -4,7 +4,7 @@
         "copy": "node scripts/copy"
     },
     "dependencies": {
-        "babel-minify": "^0.5.0",
+        "babel-minify": "^0.5.1",
         "clipboardy": "^2.0.0"
     }
 }
